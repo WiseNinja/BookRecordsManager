@@ -1,0 +1,38 @@
+{
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "@id": {
+        "type": "string"
+      },
+      "author": {
+        "type": "string"
+      },
+      "title": {
+        "type": "string"
+      },
+      "genre": {
+        "type": "string"
+      },
+      "price": {
+        "type": "number"
+      },
+      "publish_date": {
+        "type": "string"
+      },
+      "description": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "@id",
+      "author",
+      "title",
+      "genre",
+      "price",
+      "publish_date",
+      "description"
+    ]
+  }
+}
